@@ -3,10 +3,10 @@
 This backend of Book Your Show where the user data is being stored and retrived flexibly from MongoDB and shown on the UI.
 
 ### Backend
--  #### Express
-       full Backend is based on Express.Js
--  #### Mongoose
-       for MongoDB Connection
+-  Express
+      - full Backend is based on Express.Js
+-  Mongoose
+      - for MongoDB Connection
 
 ### Endpoint
 - GET - <Url>/api/booking
