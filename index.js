@@ -16,7 +16,7 @@ connection();
 
 // creating an api and seperating it.
 app.get("/", async (req, res) => {
-    res.send("nothing to show")
+    res.send("Made with ❤️ from Anish")
 })
 app.use("/api", bookingRoute);
 
