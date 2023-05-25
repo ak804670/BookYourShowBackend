@@ -9,7 +9,7 @@ This backend of Book Your Show where the user data is being stored and retrived 
        for MongoDB Connection
 
 ### Endpoint
-- GET - {Url}/api/booking
+- GET - <Url>/api/booking
        - for geting the booking information from Database
-- POST - {url}/api/booking
+- POST - <Url>/api/booking
        - for sending the booking information to Database 
