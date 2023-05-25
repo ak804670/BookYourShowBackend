@@ -1,17 +1,15 @@
 let mongoose = require("mongoose");
 require("dotenv").config();
 
-// for production use this 
+
 const mongoLiveURI = process.env.MONGO_LIVE_URL;
 
-// for development use this
-const mongoLocalURI = process.env.MONGO_URL;
 
 
 const connectToMongo = async () => {
-  // Connecting to database using connection string and speciying if there is any error or it was successfull
+  // Connecting to database using connection string  
   mongoose
-    .connect( mongoLocalURI, 
+    .connect( mongoLiveURI, 
         { 
             useNewUrlParser: true, 
             useUnifiedTopology: true 
