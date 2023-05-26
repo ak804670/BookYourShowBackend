@@ -5,7 +5,7 @@ This backend of Book Your Show where the user data is being stored and retrived 
 ## Technologies that are used.
 ### Backend
 -  Express
-      - full Backend is based on Express.Js
+      - Backend is based on Express.Js
 -  Mongoose
       - for MongoDB Connection
 
